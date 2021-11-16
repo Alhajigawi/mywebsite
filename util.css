@@ -1,0 +1,105 @@
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+  height:86vh;
+  border-radius: 100px;
+  border-right-width: medium;
+
+  overflow-y: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("image/pex1.jpg");
+}
+.slide2 {
+  background-image: url("images/ages/powerpnt.png");
+}
+.slide3 {
+  background-image: url("image/pex.jpg");
+}
+.slide4{
+  background-image: url("image/myn.jpg");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: brown;
+}
+
+.arrow {
+  cursor:pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style:solid;
+  
+  
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent rgb(61, 5, 5) transparent transparent;
+  left: 0;
+
+  margin-left: 20px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent rgb(61, 5, 5);
+  right: 0;
+  margin-right: 30px;
+  color: aqua;
+}
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  background-color: #36454F;
+  margin:0;
+  padding: 20px;;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 240, 246);
+}
+.nav li{
+  display:inline;
+  color: rgb(205, 50, 50);
+}
+.nav a{
+  display:inline-block;
+  padding:10px;
+}
+
+
+
+
+
+
+
+
